@@ -6,14 +6,21 @@ class MissionCard extends React.Component {
     const { name, year, country, destination } = this.props;
     return (
       <div
-        className="card text-center"
+        className="card-body text-center w-25 border border-5"
         data-testid="mission-card"
       >
-        <div className="card-body">
-          <h2 className="card-title" data-testid="mission-name">{name}</h2>
-          <h3 className="card-title" data-testid="mission-year">{year}</h3>
-          <h4 className="card-title" data-testid="mission-country">{country}</h4>
-          <p className="card-text" data-testid="mission-destination">{destination}</p>
+        <div>
+          <h3
+            className="card card-title border border-2"
+            data-testid="mission-name"
+          >
+            {name}
+          </h3>
+        </div>
+        <div>
+          <h4 className="card-text" data-testid="mission-year">{year}</h4>
+          <h4 className="card-text" data-testid="mission-country">{country}</h4>
+          <h4 className="card-text" data-testid="mission-destination">{destination}</h4>
         </div>
       </div>
     );
