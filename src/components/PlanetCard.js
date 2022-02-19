@@ -10,13 +10,13 @@ class PlanetCard extends React.Component {
         data-testid="planet-card"
       >
         <div className="card-body">
+          <img
+            src={ planetImage }
+            className="card-img-top"
+            alt={ `Planeta ${planetName}` }
+          />
           <h5 className="card-title" data-testid="planet-name">{planetName}</h5>
         </div>
-        <img
-          src={ planetImage }
-          className="card-img-top"
-          alt={ `Planeta ${planetName}` }
-        />
       </div>
     );
   }
