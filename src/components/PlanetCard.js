@@ -9,7 +9,7 @@ class PlanetCard extends React.Component {
         className="card text-center"
         data-testid="planet-card"
       >
-        <div className="card-body">
+        <div className="card-body planetCard">
           <img
             src={ planetImage }
             className="card-img-top"

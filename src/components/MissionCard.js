@@ -6,7 +6,7 @@ class MissionCard extends React.Component {
     const { name, year, country, destination } = this.props;
     return (
       <div
-        className="card-body text-center w-25 border border-5"
+        className="card-body text-center w-25 border border-1"
         data-testid="mission-card"
       >
         <div>

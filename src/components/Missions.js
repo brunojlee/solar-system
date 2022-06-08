@@ -8,7 +8,7 @@ class Missions extends React.Component {
     return (
       <div data-testid="missions">
         <Title headline="Missões" />
-        <article className="card-body row">
+        <article className="card-body row missionsTable">
           {
             missions.map((mission) => (<MissionCard
               name={ mission.name }

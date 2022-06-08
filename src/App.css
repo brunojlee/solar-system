@@ -1,3 +1,32 @@
-.App {
+header article .text-center {
+  padding: 0;
+}
+
+.headerTitle {
+  color: white;
+  font-size: 1.5em;
+  margin-bottom: 0.5em;
   text-align: center;
+}
+
+.fullContainer {
+  background-image: url('./images/background.png');
+  text-align: center;
+}
+
+.planetCard {
+  background-image: url('./images/background.png');
+  text-align: center;
+}
+
+.missionsTable {
+  color: white;
+}
+
+.missionsTable h3 {
+  background-color: inherit;
+}
+
+h2 {
+  color: white;
 }
