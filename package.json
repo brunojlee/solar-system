@@ -1,6 +1,7 @@
 {
   "name": "solar-system",
   "version": "0.1.0",
+  "homepage": "solar-system/",
   "private": true,
   "engines": {
     "node": "16"
@@ -20,12 +21,6 @@
     "test": "react-scripts test",
     "lint:styles": "npx stylelint '**/*.css'",
     "lint": "eslint --no-inline-config --no-error-on-unmatched-pattern -c .eslintrc.json . --ext .js,.jsx"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
   },
   "browserslist": {
     "production": [
